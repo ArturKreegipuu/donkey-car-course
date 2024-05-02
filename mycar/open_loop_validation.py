@@ -8,8 +8,6 @@ from sklearn.model_selection import train_test_split
 import cv2
 import re
 
-# python3 /home/artur/mycar/open_loop_validation.py sunny_25k.h5 --shuffle
-
 # Number of frames the model was trained on
 MODEL_FRAMES_SIZES = {
         r"dark_2k": 2418,
